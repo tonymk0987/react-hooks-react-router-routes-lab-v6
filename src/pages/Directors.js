@@ -1,16 +1,18 @@
-import { useEffect, useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Directors() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
+        <Link to="/">Home</Link> {/* Link to the home page */}
       </header>
       <main>
-        {/* Director info here! */}
+        <h1>Directors</h1>
+      
       </main>
     </>
   );
-};
+}
 
 export default Directors;

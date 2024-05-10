@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Actors() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
+        <Link to="/">Home</Link> 
       </header>
       <main>
-        {/* Actor info here! */}
+        <h1>Actors</h1>
       </main>
     </>
   );
-};
+}
 
 export default Actors;

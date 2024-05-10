@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Movie() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
+        <Link to="/">Home</Link> 
       </header>
       <main>
-        {/* Movie info here! */}
+        <h1>Movie</h1>
       </main>
     </>
   );
-};
+}
 
 export default Movie;
